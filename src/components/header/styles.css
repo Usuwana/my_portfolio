@@ -1,0 +1,189 @@
+#about-active{
+    margin-left: 5vw;
+    font-family: 'Inika';
+    display: inline-block;
+    border-top: 25px;  
+    border: 2px solid #DDBC45;
+    padding: 5px 40px; 
+    background: #D9D9D9;
+    opacity: 0.8;
+}
+
+#contact{
+    margin-left: 5vw;
+    font-family: 'Inika';
+    display: inline-block;
+}
+
+#contact-active{
+    margin-left: 5vw;
+    font-family: 'Inika';
+    display: inline-block;
+    border-top: 25px;  
+    border: 2px solid #DDBC45;
+    padding: 5px 40px; 
+    background: #D9D9D9;
+    opacity: 0.8;
+}
+
+#services{
+    margin-left: 5vw;
+    font-family: 'Inika';
+    display: inline-block;
+}
+
+#services-active{
+    margin-left: 5vw;
+    font-family: 'Inika';
+    display: inline-block;
+    border-top: 25px;  
+    border: 2px solid #DDBC45;
+    padding: 5px 40px; 
+    background: #D9D9D9;
+    opacity: 0.8;
+}
+
+.Facebook-Link{
+  margin-left: 10vw;
+    width: 2vw;
+}
+
+.Instagram-Link{
+  margin-left: 5vw;
+    width: 2vw;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+#header-container {
+    background-color: #484646;
+    min-height: 10vh;
+    height: fit-content;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-right: 5vw;
+    position: fixed;
+
+/*margin: 0 auto;*/
+z-index: 100;
+}
+
+#cont{
+    background-color: #484646;
+}
+.menu{
+    margin-left: 0%;
+    height: 10vh;
+    border-color: black;
+}
+.menu-img{
+   
+    min-height: 2vh;
+    max-height: 4vh; /* Magic here */
+    display: flex;
+    min-width: 1vw;
+    max-width: 6vw;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.menu-img:hover{
+    color: black;
+}
+
+h3:hover {
+
+    border-top: 25px;  
+    border: 2px solid #DDBC45;
+    padding: 5px 40px; 
+    background: #D9D9D9;
+    opacity: 0.5;
+    }
+.logo-img{
+    margin-left: 10vw;
+    min-height: 1vh;
+    max-height: 8vh; /* Magic here */
+    display: flex;
+    min-width: 10vw;
+    max-width: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.Company-logo{
+    min-width: 10vw;
+    max-width: 30vw;
+    margin: auto;
+    width: fit-content;
+}
+
+.Facebook-Link{
+    
+    min-width: 2.5vw;
+      max-width: 3vw;
+  }
+
+  .Instagram-Link{
+    margin-left: 5vw;
+    min-width: 2.5vw;
+      max-width: 3vw;
+  }
+
+  #socials{
+    height: 10vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #home{
+    font-family: 'Inika';
+  }
+  #home-active{
+    font-family: 'Inika';
+    border-top: 25px; 
+    border: 2px solid #DDBC45;
+    padding: 5px 40px; 
+    background: #D9D9D9;
+    opacity: 0.8;
+}
+
+  #about{
+    font-family: 'Inika';
+  }
+  #about-active{
+    font-family: 'Inika';
+    border-top: 25px;  
+    border: 2px solid #DDBC45;
+    padding: 5px 40px; 
+    background: #D9D9D9;
+    opacity: 0.8;
+}
+  #services{
+    font-family: 'Inika';
+  }
+  #services-active{
+    font-family: 'Inika';
+    border-top: 25px;  
+    border: 2px solid #DDBC45;
+    padding: 5px 40px; 
+    background: #D9D9D9;
+    opacity: 0.8;
+}
+  #contact{
+    font-family: 'Inika';
+  }
+
+  #contact-active{
+    font-family: 'Inika';
+    border-top: 25px;  
+    border: 2px solid #DDBC45;
+    padding: 5px 40px; 
+    background: #D9D9D9;
+    opacity: 0.8;
+}
+
+  }
