@@ -1,0 +1,13 @@
+@media only screen and (min-width: 900px) {
+    .main {
+        display: flex;
+        align-items: center; /* Vertical centering */
+        justify-content: center; 
+    }
+    #box {
+        border: 2px solid gray; /* Add a border */
+  color: gray;
+        width: 400;
+        height: 300;
+    }
+}
