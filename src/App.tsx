@@ -1,10 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Header } from './components/header';
-import { Main } from './components/main';
-import { Footer } from './components/footer';
-import { FindMe } from './components/findme';
+import { Home } from './screens/home';
+
 
 function App() {
 
@@ -12,11 +10,8 @@ function App() {
     //backgroundColor: '#333'
 }
   return (
-    <div>
-      <Header/>
-      <Main/>
-      <FindMe/>
-      <Footer/>
+    <div style={{ height: '100vh', width: '100vw', backgroundColor: '#1C1A1A'}}>
+      <Home/>
     </div>
   );
 }

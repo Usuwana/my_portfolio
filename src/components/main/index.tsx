@@ -7,6 +7,7 @@ import java from './/java.png';
 import html from './/html.png';
 import css from './/css.png';
 import typescript from './/typescript.png';
+import Spacer from 'react-styled-spacer'
 
 
 const profStyle = {
@@ -31,13 +32,14 @@ export const Main  = () => {
     return(
         <div className="main" style={{display: 'flex', flexDirection: 'column', flex: 1 }} >
            <div className="column-container" style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
-              
+              <Spacer h={50} />
               <div className="column" >
               <img src={prof} style={{display: 'block', width: '350px', height: '200px', margin: 'auto' }}/>
               </div>
               <div className="column" style={{textAlign: 'center', justifyContent: 'center' }}>
               <p>I am a productive Fullstack Software Developer who is passionate about developing scalable, maintainable, cutting-edge web and mobile apps. Using flexible modern Software Architecture principles, I can work in a team or with minimal supervision to deliver high quality software products that meets and exceeds users' expectation.</p>
               </div>
+              <Spacer h={20} />
               <h3 style={{display: 'block', margin: 'auto' }}>Tech Stack:</h3>
               <div className="column" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
                   {listItems.map((item, index) => (
