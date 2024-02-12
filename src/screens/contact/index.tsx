@@ -1,5 +1,9 @@
+import Forms from "../../components/form"
+
 export const Contact  = () => {
     return (
-        <div></div>
+        <div>
+            <Forms/>
+        </div>
     )
 }

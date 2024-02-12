@@ -1,0 +1,43 @@
+@media only screen and (min-width: 900px) {
+    .Contactform {
+        text-align: center;
+        width: 100%;
+        margin: 20px auto;
+        background-color: white;
+              
+      }
+      Form {
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: left;
+        background-color: #e8d37d;
+        
+      }
+  
+      #button {
+        color: black;
+        background-color: #D9D9D9;
+    }
+  
+      
+      
+      #intouch{
+        background-color: white;
+        min-height: 10vh;
+        height: fit-content;
+        display: flex;
+        width: 100%;
+        text-align: left;
+        align-items: center;
+      }
+  
+      #intouch h3{
+        /*color: #DDBC45;*/
+        margin-left: 1vw;
+        font-family: 'Courier';
+      }
+  }
+  
+  
+  
