@@ -30,9 +30,8 @@
       
       .column {
         flex: 1; /* Make each column take equal space */
-        padding: 16px;
-        border: 1px solid #ddd; /* Add a border for separation */
-        margin: 8px;
+        
+         /* Add a border for separation */
         background-color: #1C1A1A; /* Set background color */
         color: aliceblue;
         height: "80%";
