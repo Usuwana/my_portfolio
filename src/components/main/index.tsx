@@ -32,12 +32,12 @@ export const Main  = () => {
     return(
         <div className="main" style={{display: 'flex', flexDirection: 'column', flex: 1 }} >
            <div className="column-container" style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
-              <Spacer h={50} />
+              <Spacer h={30} />
               <div className="column" >
               <img src={prof} style={{display: 'block', width: '350px', height: '200px', margin: 'auto' }}/>
               </div>
               <div className="column" style={{textAlign: 'center', justifyContent: 'center' }}>
-              <p>I am a productive Fullstack Software Developer who is passionate about developing scalable, maintainable, cutting-edge web and mobile apps. Using flexible modern Software Architecture principles, I can work in a team or with minimal supervision to deliver high quality software products that meets and exceeds users' expectation.</p>
+              <p>My name is Tatenda Mapuranga. I am a Masters in Cyber Security student and I hold a degree in Software Engineering. I am a Software Developer. I am currently enhancing my web development skillset through projects and I have also done work in mobile application development. Through my projects and experiences in software development, I have done Full Stack development and I hope to keep working towards being a Full Stack Developer alongside working towards finishing my Cyber Security degree in working as a Cyber S3ecurity Analyst. </p>
               </div>
               <Spacer h={20} />
               <h3 style={{display: 'block', margin: 'auto' }}>Tech Stack:</h3>
