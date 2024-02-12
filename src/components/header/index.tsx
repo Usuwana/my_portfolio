@@ -1,4 +1,5 @@
 
+import { Link, Outlet } from "react-router-dom";
 import "./styles.css";
 
 
@@ -14,13 +15,20 @@ const headingStyle = {
 
 export const Header  = () => {
     return(
-         <div id="main">
-         <h3 style= {headingStyle}>HOME</h3>
-         {/* <h3>|</h3> */}
-         <h3 style= {headingStyle}>PROJECTS</h3>
-         {/* <h3>|</h3> */}
-         <h3>CONTACT</h3>
+    // <div id="main">
+    //      <h3 style= {headingStyle} >HOME</h3>
+    //      <h3 style= {headingStyle}>PROJECTS</h3>
+    //      <h3>CONTACT</h3>
          
-    </div>
+    // </div>
+    <>
+      <nav id="main">
+            <Link to="/"><h3 style= {headingStyle} >HOME</h3></Link>
+            <Link to="/projects"><h3 style= {headingStyle}>PROJECTS</h3></Link>
+            <Link to="/contact"><h3>CONTACT</h3></Link>
+      </nav>
+
+      <Outlet />
+    </>
     )
 }
