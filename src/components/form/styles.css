@@ -3,7 +3,7 @@
         text-align: center;
         width: 100%;
         margin: 20px auto;
-        background-color: white;
+        background-color: #1C1A1A;
               
       }
       Form {
@@ -11,19 +11,23 @@
         border-radius: 10px;
         padding: 20px;
         text-align: left;
-        background-color: #e8d37d;
+        background-color: #1C1A1A;
+        width: 50%;
+        margin: auto;
         
       }
   
       #button {
         color: black;
         background-color: #D9D9D9;
+        display: block;
+        margin: auto;
     }
   
       
       
       #intouch{
-        background-color: white;
+        background-color: #1C1A1A;
         min-height: 10vh;
         height: fit-content;
         display: flex;
@@ -37,6 +41,8 @@
         margin-left: 1vw;
         font-family: 'Courier';
       }
+
+    
   }
   
   
