@@ -2,6 +2,9 @@ import './styles.css';
 import red from './/red.png';
 import ac from './/ac.png';
 import realfun from './/realfun.png';
+import watch1 from './/watch1.jpeg';
+import watch2 from './/watch2.jpeg';
+import watch3 from './/watch3.jpeg';
 import Spacer from 'react-styled-spacer';
 
 export const ProjectsMain = () => {
@@ -39,6 +42,23 @@ export const ProjectsMain = () => {
         <h4>Realfun Learning Centre</h4>
         <a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={realfun} style={{display: 'block', width: '750px', height: '500px', margin: 'auto' }}/></a>
         <p>First Column Content</p>
+      </div>
+      <div className="column">
+        {/* Content for the second column */}
+        <p>Second Column Content</p>
+      </div>
+</div>
+
+<div className="rowContainer">
+    
+      <div className="column">
+        {/* Content for the first column */}
+        <a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={watch1} style={{display: 'block', width: '250px', height: '500px', margin: 'auto' }}/></a>
+        <p>First Column Content</p>
+      </div>
+      <div className="column">
+        {/* Content for the second column */}
+        <a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={watch3} style={{display: 'block', width: '250px', height: '500px', margin: 'auto' }}/></a>
       </div>
       <div className="column">
         {/* Content for the second column */}
