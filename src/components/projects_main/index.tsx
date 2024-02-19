@@ -5,66 +5,73 @@ import realfun from './/realfun.png';
 import watch1 from './/watch1.jpeg';
 import watch2 from './/watch2.jpeg';
 import watch3 from './/watch3.jpeg';
+import watchlist from './/watchlist.png';
 import Spacer from 'react-styled-spacer';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 export const ProjectsMain = () => {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+  
+  
     return(
-<div style={{backgroundColor: '#1C1A1A'}}>
-<Spacer h={30} />
-<div className="rowContainer">
-      <div className="column">
-        {/* Content for the first column */}
-        <h4>RuesEvents Designs</h4>
-        <a href="http://ruesevents.co.zw/" target="_blank"><img src={red} style={{display: 'block', width: '750px', height: '500px', margin: 'auto' }}/></a>
-      </div>
-      <div className="column">
-        {/* Content for the second column */}
-        <p>Second Column Content</p>
-      </div>
-</div>
-<Spacer h={30} />
-<div className="rowContainer">
-      <div className="column">
-        {/* Content for the first column */}
-        <h4>Analogy Care</h4>
-        <a href="https://analogycare.com/" target="_blank"><img src={ac} style={{display: 'block', width: '750px', height: '500px', margin: 'auto' }}/></a>
-        <p>First Column Content</p>
-      </div>
-      <div className="column">
-        {/* Content for the second column */}
-        <p>Second Column Content</p>
-      </div>
-</div>
-<Spacer h={30} />
-<div className="rowContainer">
-      <div className="column">
-        {/* Content for the first column */}
-        <h4>Realfun Learning Centre</h4>
-        <a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={realfun} style={{display: 'block', width: '750px', height: '500px', margin: 'auto' }}/></a>
-        <p>First Column Content</p>
-      </div>
-      <div className="column">
-        {/* Content for the second column */}
-        <p>Second Column Content</p>
-      </div>
-</div>
-
-<div className="rowContainer">
-    
-      <div className="column">
-        {/* Content for the first column */}
-        <a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={watch1} style={{display: 'block', width: '250px', height: '500px', margin: 'auto' }}/></a>
-        <p>First Column Content</p>
-      </div>
-      <div className="column">
-        {/* Content for the second column */}
-        <a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={watch3} style={{display: 'block', width: '250px', height: '500px', margin: 'auto' }}/></a>
-      </div>
-      <div className="column">
-        {/* Content for the second column */}
-        <p>Second Column Content</p>
-      </div>
-</div>
-</div>
+      
+    <div style={{marginTop: '100px', marginLeft: '40px'}}>
+      <Carousel 
+        
+        responsive={responsive}
+        swipeable={false}
+        draggable={false}
+        showDots={false}
+        containerClass="carousel-container"
+        removeArrowOnDeviceType={["tablet", "mobile"]}
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+        
+        >
+          <div className="card"><a href="http://ruesevents.co.zw/" target="_blank"><img src={red} style={{width: '400px', height: '300px'}}/>
+          <div className="card-content">
+          <h3 className="card-title">RuesEvents Designs</h3>
+          </div>
+          </a>
+          </div>
+          <div className="card"><a href="https://analogycare.com/" target="_blank"><img src={ac} style={{width: '400px', height: '300px'}}/>
+          <div className="card-content">
+          <h3 className="card-title">Analogy Care</h3>
+          </div>
+          </a>
+          </div>
+          <div className="card"><a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={realfun} style={{width: '400px', height: '300px'}}/>
+          <div className="card-content">
+          <h3 className="card-title">Realfun Learning Centre</h3>
+          </div>
+          </a>
+          </div>
+          <div className="card"><a href="https://github.com/Usuwana/my_watchlist/releases/tag/v1.0.0" target="_blank"><img src={watchlist} style={{width: '400px', height: '300px'}}/>
+          <div className="card-content">
+          <h3 className="card-title">My Watchlist</h3>
+          </div>
+          </a>
+          </div>
+    </Carousel>
+    </div>
     )
 }

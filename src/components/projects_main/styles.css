@@ -6,3 +6,12 @@
     flex: 1; /* Each column takes up equal space */
     margin-right: 10px; /* Optional: Adjust the margin between columns */
   }
+  .card {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+ 
