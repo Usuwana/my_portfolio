@@ -1,6 +1,9 @@
 
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import "./styles.css";
+import useWindowSize from "../../hooks/useWindowSize";
+import { Size } from "../../types";
+import { useState } from "react";
 
 
 
@@ -11,21 +14,49 @@ const headingStyle = {
     // Add more styles as needed
   };
 
-  
+  type NavProps = {
+    home: boolean
+    projects: boolean
+    contact: boolean
+}
 
-export const Header  = () => {
+export const Header  = (props: NavProps) => {
+    const size: Size = useWindowSize();
+    const [visible, setVisible] = useState(false);
+    const showDrawer = () => {
+        setVisible(true);
+    };
+    const onClose = () => {
+        setVisible(false);
+    };
     return(
-    // <div id="main">
-    //      <h3 style= {headingStyle} >HOME</h3>
-    //      <h3 style= {headingStyle}>PROJECTS</h3>
-    //      <h3>CONTACT</h3>
-         
-    // </div>
     <>
       <nav id="main">
-            <Link to="/"><h3 style= {headingStyle} >HOME</h3></Link>
-            <Link to="/projects"><h3 style= {headingStyle}>PROJECTS</h3></Link>
-            <Link to="/contact"><h3>CONTACT</h3></Link>
+      {props.home ? (
+        <>
+            <NavLink to="/"><h3 style= {headingStyle} className="home-active">HOME</h3></NavLink>
+            <NavLink to="/projects"><h3 style= {headingStyle} className="projects">PROJECTS</h3></NavLink>
+            <NavLink to="/contact"><h3 className="contact">CONTACT</h3></NavLink>
+        </>
+            ) : props.projects ? (
+              <>
+            <NavLink to="/"><h3 style= {headingStyle} className="home">HOME</h3></NavLink>
+            <NavLink to="/projects"><h3 style= {headingStyle} className="projects-active">PROJECTS</h3></NavLink>
+            <NavLink to="/contact"><h3 className="contact">CONTACT</h3></NavLink>
+        </>
+            ) : props.contact ? (
+              <>
+              <NavLink to="/"><h3 style= {headingStyle} className="home">HOME</h3></NavLink>
+              <NavLink to="/projects"><h3 style= {headingStyle} className="projects">PROJECTS</h3></NavLink>
+              <NavLink to="/contact"><h3 className="contact-active">CONTACT</h3></NavLink>
+          </>
+            ) : (
+              <>
+              <NavLink to="/"><h3 style= {headingStyle} className="home">HOME</h3></NavLink>
+              <NavLink to="/projects"><h3 style= {headingStyle} className="projects">PROJECTS</h3></NavLink>
+              <NavLink to="/contact"><h3 className="contact">CONTACT</h3></NavLink>
+              </>
+            )};
       </nav>
 
       <Outlet />

@@ -12,8 +12,80 @@
   
 }
 
+.home-active {
+  border-top: 2px solid #fff;  
+  border-bottom: 2px solid #fff;
+  padding: 5px 40px; 
+  /*background: #ffffff;*/
+  opacity: 0.5;
+}
+.projects-active{
+  border-top: 2px solid #fff;  
+  border-bottom: 2px solid #fff;
+  padding: 5px 40px; 
+  /*background: #ffffff;*/
+  opacity: 0.5;
+} 
+.contact-active{
+  border-top: 2px solid #fff;  
+  border-bottom: 2px solid #fff;
+  padding: 5px 40px; 
+  /*background: #ffffff;*/
+  opacity: 0.5;
+}
+
+.home{
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  padding: 5px 40px; 
+  opacity: 1;
+  transition: border 0.9s ease, opacity 0.5s ease;
+}
+
+.home:hover {  
+  border-bottom: 2px solid #fff;
+  padding: 5px 40px; 
+  /*background: #ffffff;*/
+  opacity: 0.5;
+  
+}
+
+.projects:hover {  
+  border-bottom: 2px solid #fff;
+  padding: 5px 40px; 
+  /*background: #ffffff;*/
+  opacity: 0.5;
+  
+}
+
+.contact:hover {  
+  border-bottom: 2px solid #fff;
+  padding: 5px 40px; 
+  /*background: #ffffff;*/
+  opacity: 0.5;
+  
+}
+
+
+.projects{
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  padding: 5px 40px; 
+  opacity: 1;
+  transition: border 0.9s ease, opacity 0.5s ease;
+}
+.contact{
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  padding: 5px 40px; 
+  opacity: 1;
+  transition: border 0.9s ease, opacity 0.5s ease;
+
+}
+
 h3 {
   margin-left: 0vw;
   color: aliceblue;
 }
+
 }
