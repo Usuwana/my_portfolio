@@ -22,5 +22,13 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 900px){}
+@media only screen and (min-width: 320px) and (max-width: 900px){
+  
+  .card {
+    background-color: #1C1A1A;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    padding-bottom: '50px';
+  }
+}
  

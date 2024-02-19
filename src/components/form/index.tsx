@@ -39,6 +39,7 @@ const handleOnSubmit = (e: any) => {
 return (
   <div className="Contactform" style={{display: 'flex', flexDirection: 'column', flex: 1 }}>
     <div id="intouch">
+    <Spacer height={30} />
       <h3 style={{margin: 'auto'}} >Get In Touch With Me</h3>
     </div>
     <Form onSubmit={handleOnSubmit} action='mailto:tatemapu@gmail.com'>
