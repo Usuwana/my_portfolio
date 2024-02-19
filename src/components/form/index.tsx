@@ -12,8 +12,8 @@ import Spacer from 'react-spacer';
 const Forms = () => {
 
 const size: Size = useWindowSize();
-const SERVICE_ID = "service_lws2w3p";
-const TEMPLATE_ID = "template_aqwaca3";
+const SERVICE_ID = "service_n4mg2g5";
+const TEMPLATE_ID = "template_gir7ano";
 const PUBLIC_KEY = "S0virmLuIo_XsLF4q";
 
 const handleOnSubmit = (e: any) => {
@@ -41,7 +41,7 @@ return (
     <div id="intouch">
       <h3 style={{margin: 'auto'}} >Get In Touch With Me</h3>
     </div>
-    <Form onSubmit={handleOnSubmit} action='mailto:info@ruesevents.co.zw'>
+    <Form onSubmit={handleOnSubmit} action='mailto:tatemapu@gmail.com'>
       <Form.Field
         id='form-input-control-email'
         control={Input}
