@@ -30,6 +30,7 @@ const boxStyle = {
 
 
 export const Main  = () => {
+  const listItems = [html, css, typescript, react, flutter, java];
   const listItems1 = [html, css, typescript];
   const listItems2 = [react, flutter, java];
   const size: Size = useWindowSize();
@@ -54,7 +55,7 @@ export const Main  = () => {
               <Spacer h={20} />
               <h3 style={{display: 'block', margin: 'auto' }}>Tech Stack:</h3>
               <div className="column" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                  {listItems1.map((item, index) => (
+                  {listItems.map((item, index) => (
                   <div key={index} style={{ margin: '10px', padding: '10px' }}>
                     {<img  style={{ width: '60px', height: '20px' }} src={item} />}
                   </div>
