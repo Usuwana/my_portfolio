@@ -3,6 +3,7 @@ import { FindMe } from "../../components/findme"
 import { Footer } from "../../components/footer"
 import Forms from "../../components/form"
 import { Header } from "../../components/header"
+import Spacer from "react-styled-spacer"
 
 export const Contact  = () => {
     useEffect(() => {
@@ -13,6 +14,7 @@ export const Contact  = () => {
             <Header home={false} projects={false} contact={true}/>
             <Forms/>
             <FindMe/>
+            
             <Footer/>
         </div>
     )
