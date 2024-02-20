@@ -49,34 +49,37 @@ export const ProjectsMain = () => {
       <Carousel 
         
         responsive={responsive}
-        swipeable={false}
-        draggable={false}
-        showDots={false}
+        swipeable={true}
+        draggable={true}
+        showDots={true}
+        arrows={true}
+        ssr={true}
+        infinite={true}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
         
         >
-          <div className="card"><a href="http://ruesevents.co.zw/" target="_blank"><img src={red} style={{width: '400px', height: '300px'}}/>
+          <div className="card"><a href="http://ruesevents.co.zw/" target="_blank"><img src={red} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">RuesEvents Designs</h3>
           </div>
           </a>
           </div>
-          <div className="card"><a href="https://analogycare.com/" target="_blank"><img src={ac} style={{width: '400px', height: '300px'}}/>
+          <div className="card"><a href="https://analogycare.com/" target="_blank"><img src={ac} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">Analogy Care</h3>
           </div>
           </a>
           </div>
-          <div className="card"><a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={realfun} style={{width: '400px', height: '300px'}}/>
+          <div className="card"><a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={realfun} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">Realfun Learning Centre</h3>
           </div>
           </a>
           </div>
-          <div className="card"><a href="https://github.com/Usuwana/my_watchlist/releases/tag/v1.0.0" target="_blank"><img src={watchlist} style={{width: '400px', height: '300px'}}/>
+          <div className="card"><a href="https://github.com/Usuwana/my_watchlist/releases/tag/v1.0.0" target="_blank"><img src={watchlist} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">My Watchlist</h3>
           </div>
