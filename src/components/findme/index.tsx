@@ -51,7 +51,7 @@ export const FindMe  = () => {
             <Spacer h={20}/>
             <div style={{paddingBottom: "50px"}}>
                 
-                <span style={{color: 'aliceblue'}}> tatemapu@gmail.com</span>
+            <span style={{color: 'aliceblue'}}> <h4><a href={mailtoLink} style={{textDecoration: 'underline'}}>tatemapu@gmail.com</a></h4></span>
             </div>
             
         </div>
