@@ -50,7 +50,7 @@ export const Main  = () => {
               <img src={prof} style={{display: 'block', width: '350px', height: '200px', margin: 'auto' }}/>
               </div>
               <div className="column" style={{textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
-              <p>Greetings! I'm Tatenda Mapuranga, a Cyber Security enthusiast currently mastering the art while holding a degree in Software Engineering. I thrive in the world of code as a Software Developer, always tweaking my web and mobile app development skills through exciting projects. I'm not just about coding; I've embraced the challenges of Full Stack development, and my journey involves balancing it all while pursuing my Cyber Security degree. Join me on this tech adventure – from coding marvels to securing the digital frontier!</p>
+              <p>Hello there! I'm Tatenda Mapuranga, a Cyber Security enthusiast currently mastering the art while holding a degree in Software Engineering. I thrive in the world of code as a Software Developer, always tweaking my web and mobile app development skills through exciting projects. I'm not just about coding; I've embraced the challenges of Full Stack development, and my journey involves balancing it all while pursuing my Cyber Security degree. Join me on this tech adventure – from coding marvels to securing the digital frontier!</p>
               </div>
               <Spacer h={20} />
               <h3 style={{display: 'block', margin: 'auto' }}>Tech Stack:</h3>
