@@ -50,7 +50,7 @@ export const Main  = () => {
               <img src={prof} style={{display: 'block', width: '350px', height: '200px', margin: 'auto' }}/>
               </div>
               <div className="column" style={{textAlign: 'center', justifyContent: 'center', alignItems: 'center' }}>
-              <p>My name is Tatenda Mapuranga. I am a Masters in Cyber Security student and I hold a degree in Software Engineering. I am a Software Developer. I am currently enhancing my web development skillset through projects and I have also done work in mobile application development. Through my projects and experiences in software development, I have done Full Stack development and I hope to keep working towards being a Full Stack Developer alongside working towards finishing my Cyber Security degree in working as a Cyber Security Analyst. </p>
+              <p>Greetings! I'm Tatenda Mapuranga, a Cyber Security enthusiast currently mastering the art while holding a degree in Software Engineering. I thrive in the world of code as a Software Developer, always tweaking my web and mobile app development skills through exciting projects. I'm not just about coding; I've embraced the challenges of Full Stack development, and my journey involves balancing it all while pursuing my Cyber Security degree. Join me on this tech adventure – from coding marvels to securing the digital frontier!</p>
               </div>
               <Spacer h={20} />
               <h3 style={{display: 'block', margin: 'auto' }}>Tech Stack:</h3>
