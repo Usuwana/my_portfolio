@@ -13,7 +13,7 @@ export const Home  = () => {
         document.title = "Tatenda Mapuranga - Home"
       }, [])
     return (
-        <div style={{ height: '100vh', width: '100vw', backgroundColor: '#1C1A1A'}}>
+        <div style={{ height: '100vh', width: '100vw', backgroundColor: '#1C1A1A', overflow: 'hidden'}}>
             <Header home={true} projects={false} contact={false}/>
             <Main/>
             <FindMe/>

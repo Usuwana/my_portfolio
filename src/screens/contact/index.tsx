@@ -10,7 +10,7 @@ export const Contact  = () => {
         document.title = "Tatenda Mapuranga - Contact"
       }, [])
     return (
-        <div style={{ height: '100vh', width: '100vw', backgroundColor: '#1C1A1A'}}>
+        <div style={{ height: '100vh', width: '100vw', backgroundColor: '#1C1A1A', overflow: 'hidden'}}>
             <Header home={false} projects={false} contact={true}/>
             <Forms/>
             <FindMe/>
