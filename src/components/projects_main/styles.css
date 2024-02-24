@@ -27,6 +27,8 @@
   .card {
     max-width: 100%; /* Ensures the container does not exceed the viewport width */
     margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 2px solid #fff;
   }
   .responsive-image {
     width: 100%; /* Makes the image width 100% of its container */

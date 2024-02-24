@@ -88,7 +88,7 @@ export const ProjectsMain = () => {
     </Carousel>
     </div>
     ) : (
-      <div style={{display: 'block'}}>
+      <div style={{display: 'block', backgroundColor: '#333'}}>
          <Spacer h={30} />
         <div className='card'>
         <a href="https://analogycare.com/" target="_blank"><img src={ac} className="responsive-image"/></a>
