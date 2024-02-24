@@ -91,22 +91,22 @@ export const ProjectsMain = () => {
       <div style={{display: 'block'}}>
          <Spacer h={30} />
         <div className='card'>
-        <a href="https://analogycare.com/" target="_blank"><img src={ac} style={{width: '400px', height: '300px'}}/></a>
+        <a href="https://analogycare.com/" target="_blank"><img src={ac} className="responsive-image"/></a>
         <h3>Analogy Care</h3>
         </div>
         <Spacer h={30} />
         <div className='card'>
-        <a href="http://ruesevents.co.zw/" target="_blank"><img src={red} style={{width: '400px', height: '300px'}}/></a>
+        <a href="http://ruesevents.co.zw/" target="_blank"><img src={red} className="responsive-image"/></a>
         <h3>RuesEvents Designs</h3>
         </div>
         <Spacer h={30} />
         <div className='card'>
-        <a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={realfun} style={{width: '400px', height: '300px'}}/></a>
+        <a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={realfun} className="responsive-image"/></a>
         <h3>Realfun Learning Centre</h3>
         </div>
         <Spacer h={30} />
         <div className='card'>
-        <a href="https://github.com/Usuwana/my_watchlist/releases/tag/v1.0.0" target="_blank"><img src={watchlist} style={{width: '400px', height: '300px'}}/></a>
+        <a href="https://github.com/Usuwana/my_watchlist/releases/tag/v1.0.0" target="_blank"><img src={watchlist} className="responsive-image"/></a>
         <h3>My Watchlist</h3>
         </div>
     </div>
