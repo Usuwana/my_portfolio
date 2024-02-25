@@ -8,10 +8,9 @@ export const Footer  = () => {
         <footer className="footer" style={{backgroundColor: '#333', color: 'aliceblue', paddingBottom: '0px', textAlign: 'center', position: 'fixed', bottom: 0, width: '100%' }}>
         Developed by Tatenda Mapuranga using React.
       </footer>
-  
     ) : (
-      <footer className="footer">
-      Developed by Tatenda Mapuranga using React.
-    </footer>
+      <footer style={{backgroundColor: '#333', color: 'aliceblue', paddingBottom: '0px', textAlign: 'center', position: 'fixed', bottom: 0, width: '100vw' }}>
+        Developed by Tatenda Mapuranga using React.
+      </footer>
     )
 }

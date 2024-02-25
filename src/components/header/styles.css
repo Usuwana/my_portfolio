@@ -98,7 +98,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%; /* Ensures the container does not exceed the viewport width */
+    width: 100%; /* Ensures the container does not exceed the viewport width */
     margin: 0 auto;
     overflow: hidden;
     cursor: pointer;

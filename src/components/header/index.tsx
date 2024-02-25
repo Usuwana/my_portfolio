@@ -81,7 +81,7 @@ export const Header  = (props: NavProps) => {
  </div>
       ) : props.projects ? (
       <div>
-          <>
+        <>
       <NavLink to="/"><h3 className="home">HOME</h3></NavLink>
       <NavLink to="/projects"><h3 className="projects-active">PROJECTS</h3></NavLink>
       <NavLink to="/contact"><h3 className="contact">CONTACT</h3></NavLink>

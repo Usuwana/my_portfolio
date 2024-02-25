@@ -80,16 +80,16 @@ export const Main  = () => {
               </div>
               <Spacer h={20} />
               <h3 style={{display: 'block', margin: 'auto' }}>Tech Stack:</h3>
-              <div className="column" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+              <div className="column" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', overflow: 'hidden' }}>
                   {listItems1.map((item, index) => (
-                  <div key={index} style={{ margin: '10px', padding: '10px' }}>
+                  <div key={index} style={{ margin: '5px', padding: '10px' }}>
                     {<img  style={{ width: '60px', height: '20px' }} src={item} />}
                   </div>
                 ))}
               </div>
-              <div className="column" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+              <div className="column" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', overflow: 'hidden' }}>
                   {listItems2.map((item, index) => (
-                  <div key={index} style={{ margin: '10px', padding: '10px' }}>
+                  <div key={index} style={{ margin: '5px', padding: '10px' }}>
                     {<img  style={{ width: '60px', height: '20px' }} src={item} />}
                   </div>
                 ))}
