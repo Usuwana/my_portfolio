@@ -1,2 +1,13 @@
 @media only screen and (min-width: 900px) {}
-@media only screen and (min-width: 320px) and (max-width: 900px){}
+@media only screen and (min-width: 0px) and (max-width: 900px){
+    .footer{
+        max-width: 100%; /* Ensures the container does not exceed the viewport width */
+        margin: 0 auto;
+        background-color: #333;
+        position: fixed;
+        color: aliceblue;
+        padding-bottom: 0px;
+        bottom: 0;
+        overflow: hidden;
+    }
+}

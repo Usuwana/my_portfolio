@@ -90,7 +90,7 @@ h3 {
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 900px){
+@media only screen and (min-width: 0px) and (max-width: 900px){
   #main {
     background-color: #333;
     min-height: 10vh;
@@ -98,8 +98,9 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 320px;
-    max-width: 900px;
+    max-width: 100%; /* Ensures the container does not exceed the viewport width */
+    margin: 0 auto;
+    overflow: hidden;
     cursor: pointer;
     
   }
