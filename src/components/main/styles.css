@@ -43,7 +43,8 @@
     
 }
 
-@media only screen and (min-width: 0px) and (max-width: 900px){
+@media only screen and (min-width: 320px) and (max-width: 900px){
+  
   .main {
     display: flex; 
     align-items: center; /* Vertical centering */
@@ -84,5 +85,21 @@
 
   li {
     color: aliceblue;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+  .flexible-paragraph {
+    max-width: 100%; /* Ensures the container does not exceed the viewport width */
+    margin: 0 auto; /* Centers the container horizontally */
+  }
+  
+  .flexible-paragraph p {
+    font-size: 1em; /* Use relative units like em for font size */
+    line-height: 1.5; /* Set line height to improve readability */
+    max-width: 100%; /* Ensure the text doesn't overflow the container */
+    word-wrap: break-word; /* Allow words to break and wrap onto the next line if needed */
+    padding: 10px; /* Add padding for better readability */
+    color: aliceblue
   }
 }
