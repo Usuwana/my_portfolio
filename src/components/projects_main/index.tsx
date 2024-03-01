@@ -79,7 +79,7 @@ export const ProjectsMain = () => {
           </div>
           </a>
           </div>
-          <div className="card"><a href="https://github.com/Usuwana/my_watchlist/releases/tag/v1.0.0" target="_blank"><img src={watchlist} style={{width: '400px', height: '250px'}}/>
+          <div className="card"><a href="https://play.google.com/store/apps/details?id=dev.usuwana.my_watchlist" target="_blank"><img src={watchlist} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">My Watchlist</h3>
           </div>
