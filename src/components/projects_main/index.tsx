@@ -65,30 +65,35 @@ export const ProjectsMain = () => {
           <div className="card"><a href="https://usuwana.dev/" target="_blank"><img src={port} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">My Portfolio 2024</h3>
+          <p className="card-para">React</p>
           </div>
           </a>
           </div>
           <div className="card"><a href="http://ruesevents.co.zw/" target="_blank"><img src={red} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">RuesEvents Designs</h3>
+          <p className="card-para">React</p>
           </div>
           </a>
           </div>
           <div className="card"><a href="https://analogycare.com/" target="_blank"><img src={ac} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">Analogy Care</h3>
+          <p className="card-para">React</p>
           </div>
           </a>
           </div>
           <div className="card"><a href="https://realfun-portfolio-portal.web.app/" target="_blank"><img src={realfun} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">Realfun Learning Centre</h3>
+          <p className="card-para">React, Google Firebase</p>
           </div>
           </a>
           </div>
           <div className="card"><a href="https://play.google.com/store/apps/details?id=dev.usuwana.my_watchlist" target="_blank"><img src={watchlist} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">My Watchlist</h3>
+          <p className="card-para">Dart, Flutter, Google Firebase, REST API</p>
           </div>
           </a>
           </div>
