@@ -1,6 +1,7 @@
 import './styles.css';
 import red from './/red.png';
 import ac from './/ac.png';
+import port from './/port2024.png';
 import realfun from './/realfun.png';
 import watch1 from './/watch1.jpeg';
 import watch2 from './/watch2.jpeg';
@@ -61,6 +62,12 @@ export const ProjectsMain = () => {
         itemClass="carousel-item-padding-40-px"
         
         >
+          <div className="card"><a href="https://usuwana.dev/" target="_blank"><img src={port} style={{width: '400px', height: '250px'}}/>
+          <div className="card-content">
+          <h3 className="card-title">My Portfolio 2024</h3>
+          </div>
+          </a>
+          </div>
           <div className="card"><a href="http://ruesevents.co.zw/" target="_blank"><img src={red} style={{width: '400px', height: '250px'}}/>
           <div className="card-content">
           <h3 className="card-title">RuesEvents Designs</h3>
